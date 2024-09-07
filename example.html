@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cover Example</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        color: white;
+        background-color:black;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .cover-container {
+        max-width: 42em;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      p.lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+      }
+      a.btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #343a40;
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        border-radius: 0.25rem;
+      }
+      footer {
+        margin-top: auto;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .nav-link {
+        margin: 0 1rem;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        padding-bottom: 0.25rem;
+        border-bottom: 0.25rem solid transparent;
+      }
+      .nav-link:hover {
+        border-bottom-color: rgba(255, 255, 255, 0.25);
+      }
+      .nav-link.active {
+        color: white;
+        border-bottom-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cover-container">
+      <header>
+        <h3 style="font-size: x-large;">Cover</h3>
+        <nav class="nav">
+          <a class="nav-link active">Home</a>
+          <a class="nav-link">Features</a>
+          <a class="nav-link">Contact</a>
+        </nav>
+      </header>
+      <main style="margin-top: 10vh">
+        <h1>Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <a class="btn">Learn more</a>
+      </main>
+      <footer>
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a class="text-white">@mdo</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
